@@ -28,15 +28,13 @@ Pivot table then requires two filters to be added:
 Pivot table also requires outcomes to be mapped to Column section in Pivot table, Date Created Conversion mapped to Rows(Row Labels column 
 may need to be grouped to show the months of a year), and Count of outcomes mapped to Values. See below:
 
-SNAPSHOT
-
-PIVOT TABLE
+![Pivot_Table_Snapshot](Pivot_Table_Snapshot.png)
 
 After pivot table is complete we then need to create a line graph that maps all info to better visualize what specific month is best to Launch a 
 Theater Kickstarter Fundraising Campaign. This is accomplished by highlighting the pivot table, clicking insert tab, clicking the
 line graph chart button and selecting Line Graph under 2-D Line. Graph is generated below:
 
-LINE GRAPH
+![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -67,7 +65,15 @@ Total Project column requires a Sum formula below:
 > =SUM(B:D)
 
 Percentage Successful, Failed, or Canceled columns uses a division formula of specific outcome column divided by Total Project # and
-formatted to display percentage found under home tab 
+formatted to display percentage found under home tab and should all look like below:
+
+![Outcomes_Based_on_Goals_Columns](Outcomes_Based_on_Goals_Columns.png)
+
+After columns are populated we then need to create a line graph that maps all info to better visualize outcomes based on goals  
+This is accomplished by highlighting the columns, clicking insert tab, clicking the
+line graph chart button and selecting Line Graph under 2-D Line. Graph is generated below after tweaking it and filtering out Number Succesful, Number Failed, Number Canceled, and Total Projects:
+
+![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
@@ -88,8 +94,8 @@ is failed outcomes are highest when fundraising campaigns are launched in May, J
 
 - What can you conclude about the Outcomes based on Goals?
 
-We can conclude outcomes are most succesful when campaign goal is below 1000 and also have second highest chance of success when 
-between 35000 to 44999.
+We can conclude outcomes are most succesful when campaign goal is less than 1000, 2nd highest succesful outcome is when goal is between 1000 and 4999 
+and lastly tied for 3rd highest chance of success is when goal is between 35000 to 44999.
 
 - What are some limitations of this dataset?
 
