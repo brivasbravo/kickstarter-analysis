@@ -30,6 +30,10 @@ may need to be grouped to show the months of a year), and Count of outcomes mapp
 
 ![Pivot_Table_Snapshot](Pivot_Table_Snapshot.png)
 
+Pivot Table Outcome:
+
+![Pivot_Table_Columns](Pivot_Table_Columns.png)
+
 After pivot table is complete we then need to create a line graph that maps all info to better visualize what specific month is best to Launch a 
 Theater Kickstarter Fundraising Campaign. This is accomplished by highlighting the pivot table, clicking insert tab, clicking the
 line graph chart button and selecting Line Graph under 2-D Line. Graph is generated below:
